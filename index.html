@@ -1,90 +1,108 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fluid Dynamics Research Group</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluid Dynamics Research Group</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+  <style>
+    li {
+      margin-left: 20px;
+      list-style-type: circle;
+    }
+  </style>
 </head>
+
 <body>
-    <section class="hero is-info">
-        <div class="hero-body has-text-centered">
-            <p class="title">Fluid Dynamics Research Group</p>
-        </div>
-    </section>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+
+  <section class="hero is-info">
+    <div class="hero-body has-text-centered">
+      <p class="title">Fluid Dynamics Research Group</p>
+    </div>
+  </section>
+
+  <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+    <div class="container">
+
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/">
+            Home
+          </a>
+
+          <a class="navbar-item" href="facility.html">
+            Facility
+          </a>
+
+          <a class="navbar-item" href="training.html">
+            Training
           </a>
         </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="/">
-                Home
-            </a>
-      
-            <a class="navbar-item" href="facility.html">
-              Facility 
-            </a>
+      </div>
+    </div>
+  </nav>
 
-            <a class="navbar-item" href="training.html">
-              Training
-            </a>
-          </div>
-        </div>
-      </nav>
-    <main>
-        <section id="home">
-            <h2>Welcome to Fluid Dynamics Research Group</h2>
-            <p>We are dedicated to advancing the understanding of fluid dynamics through innovative research and collaboration.</p>
-        </section>
-        <section id="research">
-            <h2>Our Research</h2>
-            <p>Our group focuses on various aspects of fluid dynamics, including:</p>
-            <ul>
-                <li>Computational Fluid Dynamics (CFD)</li>
-                <li>Experimental Fluid Dynamics</li>
-                <li>Combustion Flows</li>
-                <li>Multiphase Flows</li>
-                <li>Wind tunnel testing</li>
-            </ul>
-        </section>
-        <section id="team">
-            <h2>Our Team</h2>
-            <p>Our diverse team consists of researchers from different departments at JKUAT.</p>
-            <ul>
-                <li>Dr. Meshack Hawi</li>
-                <li>Dr. Bernard Owiti</li>
-                <li>Dr. Benson Oyunge</li>
-                <li>Dr. Patrick Irungu</li>
-                <li>Dr. Anthony Muchiri</li>
-                <li>Dr. Peter Oketch</li>
-                <li>Dr. Shohei Aoki</li>
-            </ul>
-        </section>
-        <section id="publications" style="height:200px">
-            <h2>Publications</h2>
-            <p>Updated soon</p>
-            <!-- <ul> -->
-            <!--     <li>Publication 1</li> -->
-            <!--     <li>Publication 2</li> -->
-            <!--     <li>Publication 3</li> -->
-            <!-- </ul> -->
-        </section>
-        <!-- <section id="contact"> -->
-        <!--     <h2>Contact Us</h2> -->
-        <!--     <p>Email: fluidynamics@example.edu</p> -->
-        <!--     <p>Address: 123 University Ave, City, State, ZIP</p> -->
-        <!-- </section> -->
-    </main>
+  <section class="container" style="padding: 10px;">
 
-    <footer>
-        <p>&copy; 2024 Fluid Dynamics Research Group. All rights reserved.</p>
-    </footer>
+    <h2 class="subtitle" style="margin-top: 20px;">Welcome to Fluid Dynamics Research Group</h2>
+    <p>We are dedicated to advancing the understanding of fluid dynamics through innovative research and collaboration.
+    </p>
+
+    <div id="research">
+      <h2 class="subtitle" style="margin-top:20px;">Our Research</h2>
+      <p>Our group focuses on various aspects of fluid dynamics, including:</p>
+      <ul>
+        <li>Computational Fluid Dynamics (CFD)</li>
+        <li>Experimental Fluid Dynamics</li>
+        <li>Combustion Flows</li>
+        <li>Multiphase Flows</li>
+        <li>Wind tunnel testing</li>
+      </ul>
+    </div>
+
+    <div id="team">
+      <h2 class="subtitle" style="margin-top: 20px;">Our Team</h2>
+      <p>Our diverse team consists of researchers from different departments at JKUAT.</p>
+      <ul>
+        <li>Dr. Meshack Hawi</li>
+        <li>Dr. Bernard Owiti</li>
+        <li>Dr. Benson Oyunge</li>
+        <li>Dr. Patrick Irungu</li>
+        <li>Dr. Anthony Muchiri</li>
+        <li>Dr. Peter Oketch</li>
+        <li>Dr. Shohei Aoki</li>
+      </ul>
+    </div>
+
+    <div id="publications" style="margin-top: 20px;">
+      <h2 class="subtitle">Publications</h2>
+      <p>Updated soon</p>
+      <br/>
+      <!-- <ul> -->
+      <!--     <li>Publication 1</li> -->
+      <!--     <li>Publication 2</li> -->
+      <!--     <li>Publication 3</li> -->
+      <!-- </ul> -->
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>&copy; 2024 Fluid Dynamics Research Group. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
+
 </html>

@@ -1,53 +1,70 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fluid Dynamics Research Group</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluid Dynamics Research Group</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+  <style>
+    li {
+      margin-left: 20px;
+      list-style-type: circle;
+    }
+  </style>
 </head>
+
 <body>
-    <section class="hero is-info">
-        <div class="hero-body has-text-centered">
-            <p class="title">Fluid Dynamics Research Group</p>
-        </div>
-    </section>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+  <section class="hero is-info">
+    <div class="hero-body has-text-centered">
+      <p class="title">Fluid Dynamics Research Group</p>
+    </div>
+  </section>
+
+  <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+    <div class="container">
+
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/">
+            Home
+          </a>
+
+          <a class="navbar-item" href="facility.html">
+            Facility
+          </a>
+
+          <a class="navbar-item" href="training.html">
+            Training
           </a>
         </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="/">
-                Home
-            </a>
-      
-            <a class="navbar-item" href="facility.html">
-              Facility 
-            </a>
+      </div>
+    </div>
+  </nav>
 
-            <a class="navbar-item" href="training.html">
-              Training
-            </a>
-          </div>
-        </div>
-      </nav>
-    <main>
-        <section id="home">
-            <h2>Training</h2>
-            <p>We offer trainings to encourage young JKUAT researchers to gain skills and knowledge.</p>
-        </section>
-        <img src="image/cfd_training.webp"/>
-    </main>
+  <section class="container" style="padding: 10px;">
+    <h2 class="subtitle" style="margin-top: 20px;">Training</h2>
+    <p>We offer trainings to encourage young JKUAT researchers to gain skills and knowledge.</p>
 
-    <footer>
-        <p>&copy; 2024 Fluid Dynamics Research Group. All rights reserved.</p>
-    </footer>
+    <img src="image/cfd_training.webp" style="margin-top:20px;"/>
+
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>&copy; 2024 Fluid Dynamics Research Group. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
+
 </html>
