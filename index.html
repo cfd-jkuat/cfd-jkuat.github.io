@@ -7,9 +7,13 @@
   <title>Fluid Dynamics Research Group</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
   <style>
-    li {
+    ul li {
       margin-left: 20px;
       list-style-type: circle;
+    }
+
+    ol li {
+      margin-left: 20px;
     }
   </style>
   <script src="script.js"></script>
@@ -75,14 +79,10 @@
       <h2 class="subtitle" style="margin-top: 20px;">Our Team</h2>
       <p>Our diverse team consists of researchers from different departments at JKUAT.</p>
       <ul>
-        <li class="js-modal-trigger" data-target="modal-js-example"> 
-          <a>
-          Dr. Meshack Hawi
-          </a>
-        </li>
+        <li class="js-modal-trigger" data-target="modal-js-hawi"><a>Dr. Meshack Hawi</a></li>
         <li>Dr. Bernard Owiti</li>
         <li>Dr. Benson Oyunge</li>
-        <li>Dr. Patrick Irungu</li>
+        <li class="js-modal-trigger" data-target="modal-js-muiruri"><a>Dr. Patrick Muiruri</a></li>
         <li>Dr. Anthony Muchiri</li>
         <li>Dr. Peter Oketch</li>
         <li>Dr. Hiram Ndiritu</li>
@@ -92,56 +92,127 @@
       </ul>
     </div>
 
-    <div id="modal-js-example" class="modal">
+    <div id="modal-js-hawi" class="modal">
       <div class="modal-background"></div>
-    
+
       <div class="modal-content">
         <div class="box">
           <h2 class="subtitle">Dr. Meshack Hawi</h2>
           <figure class="image is-96x96 container">
-            <img
-              class="is-rounded"
-              src="image/member/hawi.webp"
-            />
+            <img class="is-rounded" src="image/member/hawi.webp" />
           </figure>
-          <br/>
+          <br />
           <p>
             Dr. Meshack Hawi holds BSc and MSc degree in Mechanical Engineering,
             both from Jomo Kenyatta University of Agriculture and Technology (JKUAT)
             - Kenya, received in 2012 and 2015, respectively, and PhD in
             Energy Resources Engineering from Egypt-Japan University of Science
             and Technology (E-JUST), Egypt (2019). </p>
-            <p>
+          <p>
             He was a visiting researcher
             in the Department of Systems and Control Engineering, Tokyo Institute
             of Technology, Japan, in 2018 and 2022 to 2023 for his PhD and
-            Postdoctoral research, respectively. 
-            </p>
-            <p>
+            Postdoctoral research, respectively.
+          </p>
+          <p>
             He is currently a Lecturer at the
             Department of Mechanical Engineering, JKUAT. His research interest is in
             Combustion Systems, Internal Combustion Engines (ICEs), Renewable Energy
             and Computational Fluid Dynamics (CFD).
           </p>
-          <br/>
+          <br />
           <b>Contact:</b>
           <p>
             Email: mhawi@jkuat.ac.ke
           </p>
         </div>
       </div>
-    
+
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="modal-js-muiruri" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <h2 class="subtitle">Dr. Patrick I Muiruri (PhD)</h2>
+          <figure class="image is-96x96 container">
+            <img class="is-rounded" src="image/member/muiruri.webp" />
+          </figure>
+          <br />
+          <p>
+            Dr. Patrick Irungu Muiruri is a lecturer at the Mechanical Engineering
+            Department, in Jomo Kenyatta University of Agriculture and Technology (JKUAT).
+          </p>
+          <p>
+            He holds a doctorate degree in Engineering from the University of Botswana
+            in 2019. He graduated with a BSc and MSc in Aircraft Design Engineering
+            from National Research University formally known as Samara State Aerospace
+            University in Russia in 2009.
+          </p>
+          <p>
+            Dr. Patrick is a scholar and mentor in Engineering, and a registered
+            graduate engineer by Engineers Board of Kenya (EBK).
+          </p>
+          <p>
+            His areas of research interest are Aeronautics, Aerodynamics,
+            Design of Aircraft, Aerodynamics, Wind Energy, Mechanical and Systems
+            Design, FEM & CFD Simulations.
+          </p>
+
+          </p>
+          <br />
+          <b>Contact:</b>
+          <p>
+            Office: ELB 004
+          </p>
+          <p>
+            Email: pmuiruri@jkuat.ac.ke
+          </p>
+
+          <br />
+          <b>Some CFD Publications:</b>
+          <ol>
+            <li>A comparative study of RANS-based turbulence models for an upscale wind turbine blade. <a
+                href="https://link.springer.com/article/10.1007/s42452-019-0254-5 ">
+                https://link.springer.com/article/10.1007/s42452-019-0254-5 </a></li>
+            <li>Three Dimensional CFD Simulations of A Wind Turbine Blade Section; Validation. <a
+                href="https://doi.org/10.25103/jestr.111.16"> https://doi.org/10.25103/jestr.111.16</a></li>
+            <li>Computational Effects of Winglet Tilted Within Range of -45°and +45°on the Up-Scale Wind Turbine Blade
+              Using CFD. <a
+                href="https://www.iieta.org/journals/mmep/paper/10.18280/mmep.070117">https://www.iieta.org/journals/mmep/paper/10.18280/mmep.070117</a>
+            </li>
+            <li>Three-dimensional effects of trailing edge flap and winglet integrated on up-scale wind turbine blade.
+              <a
+                href="https://iopscience.iop.org/article/10.1088/1755-1315/354/1/012083/meta">https://iopscience.iop.org/article/10.1088/1755-1315/354/1/012083/meta</a>
+            </li>
+            <li>Optimization of polygonal cross-sectioned conformal cooling channels in injection molding.<a
+                href="https://link.springer.com/article/10.1007/s12008-023-01226-7">https://link.springer.com/article/10.1007/s12008-023-01226-7</a>
+            </li>
+            <li>Geometrical Parameter Optimization of Circular Cross-Section Conformal Cooling Channels in Injection
+              Molds of Plastic Paving Block Molds. <a
+                href="https://www.scientific.net/JERA.70.37">https://www.scientific.net/JERA.70.37</a></li>
+          </ol>
+
+
+
+        </div>
+      </div>
+
       <button class="modal-close is-large" aria-label="close"></button>
     </div>
 
     <div id="publications" style="margin-top: 20px;">
       <h2 class="subtitle">Publications</h2>
       <ul>
-          <li>Muchiri, A. K., B. Oindi, and C. Soi. "Development of a Variable Test Section Low Speed Wind Tunnel." Proceedings of the Sustainable Research and Innovation Conference. 2022. <a href="https://sri.jkuat.ac.ke/jkuatsri/index.php/sri/article/view/285" target="_blank">Link</a></li>
-      <!--     <li>Publication 2</li> -->
-      <!--     <li>Publication 3</li> -->
+        <li>Muchiri, A. K., B. Oindi, and C. Soi. "Development of a Variable Test Section Low Speed Wind Tunnel."
+          Proceedings of the Sustainable Research and Innovation Conference. 2022. <a
+            href="https://sri.jkuat.ac.ke/jkuatsri/index.php/sri/article/view/285" target="_blank">Link</a></li>
+        <!--     <li>Publication 2</li> -->
+        <!--     <li>Publication 3</li> -->
       </ul>
-      <br/>
+      <br />
     </div>
 
   </section>
